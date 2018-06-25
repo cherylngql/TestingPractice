@@ -1,8 +1,7 @@
-// const longestCommonPrefix = function(arr) {
-//   let index = 0
-//   while (index <)
-//   return ''
-// }
+const longestCommonPrefix = function(arr) {
+  let index = 0
+  return ''
+}
 
 const shortestString = function(arr) {
   let shortest = arr[0]
@@ -15,6 +14,6 @@ const shortestString = function(arr) {
 }
 
 module.exports = {
-  // longestCommonPrefix,
+  longestCommonPrefix,
   shortestString,
 }

@@ -16,7 +16,7 @@ describe('Longest Common Prefix', () => {
 })
 
 describe('Shortest String', () => {
-  it.only('returns the shortest string in an array of strings', () => {
+  it('returns the shortest string in an array of strings', () => {
     expect(shortestString(['foobar', 'foo', 'foolish'])).to.equal('foo')
   })
 })

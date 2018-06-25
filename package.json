@@ -1,15 +1,26 @@
 {
-  "name": "Test-Driven-Katas",
+  "name": "test-driven-katas",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w **/*.spec.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2"
-  }
+  },
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherylngql/TestingPractice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cherylngql/TestingPractice/issues"
+  },
+  "homepage": "https://github.com/cherylngql/TestingPractice#readme",
+  "description": ""
 }
